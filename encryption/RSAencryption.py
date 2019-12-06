@@ -4,12 +4,12 @@
 e = int(input("Enter the value 'e' : "))
 n = int(input("Enter the value 'n' : "))
 
-kacDortluVar = int(input("Number of blocks with four : "))
+numberQuadruple = int(input("Number of blocks with four : "))
 i=0
 answer=[]
-while(i<kacDortluVar):
-    dortlu = int(input("Enter the {}. quadruple block : ".format(i+1)))
-    value = (dortlu**e)%n
+while(i<numberQuadruple):
+    Quadruple = int(input("Enter the {}. quadruple block : ".format(i+1)))
+    value = (Quadruple**e)%n
     answer.append(value)
     i += 1
 
